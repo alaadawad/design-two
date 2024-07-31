@@ -1,0 +1,99 @@
+/* start Global Rules */
+:root {
+    --main-color: #3929E1;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+body {
+    /* background-image: url(images/pattern-background-desktop.svg); */
+    background-image: url(images/pattern-background-mobile.svg);
+    background-size: contain;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+/* end Global Rules */
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .box {
+    box-shadow: 0 2px 10px rgba(0 0 0 / 0.1);
+    background-color: #F8F9FE;
+    border-radius: 10%;
+    width: 100%;
+    max-width: 450px;
+}
+.header .box .imge img {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.header .box .text  {
+    text-align: center;
+}
+.header .box .text h2 {
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
+.header .box .text p {
+    width: 280px;
+    position: relative;
+    right: -80px;
+    color: #aaa;
+}
+.header .box .info {
+    display: flex;
+    align-items: center;
+    /* border: 1px solid; */
+    background-color: #cccccc3d;
+    border-radius: 20px;
+    justify-content: space-around;
+    margin: 50px;
+    padding: 5px;
+    margin-top: 0;
+    margin-bottom: 25px;
+   
+}
+.header .box .info .text {
+    padding-bottom: 15px;
+    padding-right: 80px;
+}
+.header .box .info .text h4 {
+    font-size: 15px;
+    font-family: sans-serif;
+    padding-bottom: 0;
+}
+.header .box .info .text span {
+    color: #aaa
+}
+.header .box .info a {
+    text-decoration: underline;
+}
+.header .box .link ul li {
+    /* border: 1px solid #ccc; */
+    border-radius: 20px;
+    margin: 50px;
+    padding: 15px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.header .box .link ul li a {
+    color: black;
+}
+.header .box .link li:hover  {
+    content: "";
+    background-color: var(--main-color);
+    box-shadow: 10px 10px 5px rgba(0 0 0 / 0.1);
+}
+.header .box .link a:hover {
+    color: white;
+}
